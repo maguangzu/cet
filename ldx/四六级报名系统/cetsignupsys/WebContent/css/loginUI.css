@@ -1,0 +1,25 @@
+/* CSS Document */
+
+
+.logo{ width:1190px; margin-left:auto; margin-right:auto; margin-top:20px; overflow:hidden; margin-bottom:20px;}
+.logo img{ float:left; width:250px; height:70px; padding-right:10px;}
+.logo span{ float:left; display:block; font-size:26px;border-left:1px solid #ddd; height:50px; line-height:50px; margin-top:10px; padding-left:10px;}
+
+.main{ width:1188px; overflow:hidden; margin-left:auto; margin-right:auto; margin-bottom:20px; border:1px solid #ddd; }
+.main_le{ float:left; width:450px;margin:60px}
+.main_le img{ width:450px; height:451px;}
+.main_ri{ float:left;width:450px;margin:60px; margin-top:100px; overflow:hidden;}
+.mima{ width:595px; height:42px; margin-bottom:40px;}
+.mima label{ float:left; text-align:right; width:100px; height:40px; line-height:44px; font-weight:bold;}
+.mima label em{ color:#e00346;}
+.mi{ border:1px solid #ddd; height:40px; line-height:40px; border-radius:4px; width:290px; padding-left:10px;background-image:url(../images/mi_01.jpg); background-repeat:no-repeat; background-position:97% 50%; }
+.me{ border:1px solid #ddd; height:40px; line-height:40px; border-radius:4px; width:290px; padding-left:10px;background-image:url(../images/mi_02.jpg); background-repeat:no-repeat; background-position:97% 50%; }
+.dl{ height:40px; width:300px; margin-left:102px; overflow: hidden;}
+.dl a{ color:white;display:block;height:40px; width:300px;border-radius:4px;background-color:#f76030;line-height:40px;text-align: center;}
+.dl a:active{margin-top: 1px;margin-left: 1px;}
+.wjmm{ width:300px; height:40px; margin-left:102px;}
+.wjmm_01{ float:left; width:150px; height:40px;  margin-top:10px;}
+.wjmm_01 label{ height:40px; line-height:40px;}
+.wjmm_02{ float:right;margin-top:10px; line-height:40px; height:40px;}
+.wjmm_02 a{ float:left; height:40px; line-height:40px; color:#1454ac; text-align:right; }
+.wjmm_02 span{ float:left; margin-left:2px; margin-right:2px;}

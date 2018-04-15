@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- ddl语句自己主动建表 -->
+       
+        <mapping resource="cn/cet/entity/Candidate.hbm.xml" />
+        <mapping resource="cn/cet/entity/User.hbm.xml" />
+        <!-- 注冊ORM映射文件 -->
+        <!-- spring不起作用 <mapping package="com.myweb.entity"/> -->
+    </session-factory>
+</hibernate-configuration>
+

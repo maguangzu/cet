@@ -1,0 +1,30 @@
+<!-- 这个是抽取出来的顶部jsp -->
+
+<%@ page language="java"  pageEncoding="UTF-8"%>
+<style>
+	.top{ height:20px; width:100%;  background-color:#f76030;}
+	.top_main{ height:20px; width:1190px; margin-left:auto; margin-right:auto;}
+	.top_left{ float:left; color: white; height:20px; line-height:20px; font-size:12px; font-family:"宋体";}
+	.top_right{ float:right;height:20px; line-height:20px; }
+	.top_right a span{color:white; margin-left:8px; margin-right:8px;font-size:12px;}
+	.top_right a{ float:left;color: white; font-size:12px;font-family:"宋体";} 
+</style>
+<div class="top">
+    <div class="top_main">
+        <div class="top_left">四六级报考网欢迎您！&nbsp;&nbsp;24小时客服qq热线：444812313</div>
+        <div class="top_right">
+        	<c:choose>
+        		<c:when test="${!empty USERINFO  }">
+        			<a href="#">欢迎您:${USERINFO.account }<span>|</span></a>
+					<a href="quit.action">退出<span>|</span></a>
+					 <a href="javascript:alert('当前所在就是')">个人信息<span>|</span></a>
+        		</c:when>
+        		<c:otherwise>
+		            <a href="loginUI.action">用户登录<span>|</span></a>
+		            <a href="registerUI.action">免费注册<span>|</span></a>
+        		</c:otherwise>
+        	</c:choose>
+            <a href="javascript:alert('有问题联系qq444812313')">帮助中心</a>
+        </div>
+    </div>
+</div>

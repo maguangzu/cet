@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.main_bor{margin-top: 20px; margin-left:auto; margin-right:auto; width:1190px; overflow:hidden; margin-bottom:20px;}
+.main_le{ width:348px; height:700px; overflow-y:auto;overflow-x: hidden; float:left; border:1px solid #ddd;}
+.dqmd{ height:44px; width:348px; background-color:#f76030;line-height:44px;}
+.dqmd span{ font-size:16px; color:white; font-weight:700; margin-left:20px;}
+.dqmd em{ color:white;}
+.dqmd_01{ width:310px; overflow:hidden; margin:20px; border-bottom:1px dashed #ddd;}
+.dqmd_01 h2{ font-size:16px; color:#1454ac;}
+.dqmd_01 p{ overflow:hidden; width:308px;}
+.dqmd_01 p em{ width:12px; height:16px; margin-right:6px;}
+.dqmd_01 p em img{ width:12px; height:16px;}
+.dqmd_01 p span{ color:#666;}
+.msyd{ height:36px; width:100px; border-radius:4px; border:1px solid #1454ac;text-align:center; line-height:36px; margin-left:200px; margin-bottom:20px;}
+.msyd a{ color:#1454ac; }
+.msyd:hover{ background-color:#1454ac; color:white;}
+.msyd a:hover{color:white;}
+
+
+.main_ri{ float:left; width:818px; height:700px; border:1px solid #ddd; margin-left:20px;}
+.dt{ width:818px; height:700px;}

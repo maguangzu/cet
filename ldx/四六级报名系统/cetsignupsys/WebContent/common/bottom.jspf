@@ -1,0 +1,61 @@
+<%@ page language="java"  pageEncoding="UTF-8"%>
+<style>
+/* -- 尾部  --*/
+		    .ft{height:auto;padding-top:30px;}
+			.feer{ width:1190px; overflow:hidden; margin-left:auto; margin-right:auto; border-top:1px solid #dddddd;}
+			.feer dl{ float:left; width:264px; height:160px; padding-top:24px;}
+			.feer dl dt{height:40px; line-height:40px; font-size:16px; }
+			.feer dl dd{width:138px; height:26px; line-height:26px;}
+			.feer dl dd a{ font-size:12px; color:#666666; float:left; margin-right:12px; }
+			.feer dl dd a:hover{ text-decoration:underline;}
+			.feer .bzzx{ width:110px; float:right;}
+			.ft{ width:100%; height:250px; background-color:#333333; padding-top:60px;}
+			.ft_01{ width:1190px; margin-left:auto; margin-right:auto; border-top:1px solid
+			#071c33; padding-top:40px;}
+			.ft_01 li{ float:left; color:white; height:14px; line-height:14px;}
+			.ft_01 li a{color:#667f9e; margin-right:14px; font-size:12px;}
+			.ft_01 li a:hover{ text-decoration:underline;}
+			.ft_bx{ width:1190px; overflow:hidden;margin-left:auto; margin-right:auto; }
+			.ft_bx_le{ float:left; width:840px; overflow:hidden;}
+			.bx_le_01{ overflow:hidden; width:800px; margin-top:36px;}
+			.bx_le_01 li{ margin-right:26px; float:left;}
+			.bx_le_01 li a{ font-size:12px; color:white;}
+			.bx_le_01 li a:hover{ text-decoration:underline;}
+			.bah_01{ margin-top:36px;color:white;font-size:12px;}
+			.bah_02{ color:white;font-size:12px; margin-top:6px;}
+			.ft_bx_ri{ float:right;width:350px; overflow:hidden;margin-top:36px;}
+</style>
+		<div class="feer">
+		        <dl >
+		        <dt>租房预订说明</dt>
+		        <dd><a href="#">租房手续</a></dd><dd><a href="#">房屋租赁合同</a></dd><dd><a href="#">租房说明</a></dd>
+		    </dl><dl >
+		        <dt>租房费用及结算</dt>
+		        <dd><a href="#">银行支付</a></dd><dd><a href="#">结算流程</a></dd><dd><a href="#">发票报销</a></dd>
+		    </dl><dl >
+		        <dt>紧急事务处理</dt>
+		        <dd><a href="#">保险责任</a></dd><dd><a href="#">理赔说明</a></dd>
+		    </dl><dl >
+		        <dt>会员管理</dt>
+		        <dd><a href="#">用户协议</a></dd>
+		    </dl><dl class="bzzx">
+		        <dt>帮助中心</dt>
+		        <dd><a href="#">常见问题</a></dd><dd><a href="#">新手上路</a></dd>
+		    </dl>
+		</div>
+		<div class="ft">
+		    <div class="ft_bx">
+		        <div class="ft_bx_le">
+		            <ul class="bx_le_01">
+		                <li><a href="javascript:alert('联系qq444812313')">关于我们</a></li>
+		                <li><a href="#">新闻中心</a></li>
+		                <li><a href="#">加盟合作</a></li>
+		                <li><a href="#">隐私保护</a></li>
+		                <li><a href="javascript:alert('联系qq444812313')">联系我们</a></li>
+		                <li><a href="admin/loginUI.action">后台管理</a></li>
+		            </ul>
+		             <div class="bah_01">Copyright©2016-2017 www.ziyouzu.com All Rights Reserved.　<br />
+				住好点租房 京ICP备10000000号 京公网安备号 11010502026705如果您有任何意见，欢迎发送邮件到 444812313@qq.com</div>
+		        <div class="ft_bx_ri"></div>
+		    </div>
+		</div>

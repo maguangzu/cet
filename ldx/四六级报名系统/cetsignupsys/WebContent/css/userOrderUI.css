@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; background-color:white;}
+*{ font-size:14px; font-family:"微软雅黑"; color:#333;}
+ul{ margin:0; padding:0; list-style:none;}
+a{ display:block; text-decoration:none; }
+dl, dd{ margin:0;}
+img{ border:none;}
+h4{ margin:0}
+h2{ margin:0}
+em{ font-style:normal;}
+input{ margin:0px; padding:0px; border:none;}
+p{ margin:0px; padding:0px;}
+
+
+
+
+.main{ width:1190px; overflow:hidden;  margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:20px;}
+.ti{ height:50px; width:1188px; background-color:#d9edf7;border:1px solid #bce8f1;}
+.ti h2{ height:50px; line-height:50px; font-weight:normal; font-size:18px; margin-left:20px; float:left;}
+.ti a{ float:right; background-color:#5bc0de; border-radius:4px; padding:4px 6px 4px 6px; margin-right:20px; margin-top:10px; border:1px solid #46b8da; color:white;}
+.to{ overflow:hidden; width:1148px;}
+.bo{ border:1px solid #ddd; padding:0px 20px 20px 20px; width:1148px; overflow:hidden; }
+.bb{ border-top:none;}
+.xx{ height:50px; width:1148px; border-bottom:1px solid #ddd; margin-top:20px;}
+.xx span{ height:16px; width:8px; float:left; background-color:#011328; margin-top:18px; margin-right:10px;}
+.xx em{ height:50px; line-height:50px; font-size:16px;}.
+.cr{ width:1148px; overflow:hidden;}

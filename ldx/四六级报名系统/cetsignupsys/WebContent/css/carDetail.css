@@ -1,0 +1,32 @@
+/* CSS Document */
+
+
+
+.main{ width:1190px; overflow:hidden; margin-left:auto; margin-right:auto; margin-bottom:20px; margin-top:20px;}
+.wz{ font-size:12px;}
+.main_bor{ overflow:hidden; width:1190px; margin-left:auto; margin-right:auto;}
+.main_le{ float:left; width:868px; overflow:hidden; border:1px solid #ddd;}
+.cm{ height:54px; border-bottom:1px solid #ddd; width:810px; margin-left:auto; margin-right:auto;  padding-left:18px;line-height:54px; background-image:url(../images/cc_01.jpg); background-repeat:no-repeat; background-position:left 50%;}
+.cz{ width:830px; overflow:hidden; margin:20px;}
+.cz_le{ height:398px; width:822px; border:1px solid #ddd;float:left;}
+.cz_le img{width:822px;height:398px;}
+.jbxx{ width:830px; overflow:hidden; margin-left:20px;}
+.ta{width:830px; height:90px;border-collapse:collapse}
+.tr_01{ border-bottom:1px dashed #ddd; height:44px; line-height:44px; width:830px;}
+.tr_02{ text-align:right; width:115px;color:#666;height:44px; line-height:44px;}
+.tr_03{ width:300px;text-align:left;color:#666;height:44px; line-height:44px;}
+.msyd{ display: block; height:30px; width:90px; text-align:center; line-height:26px;border: none; background-color:#f76030; border-radius:5px; color:white; margin-left:360px; margin-top:35px; margin-bottom:35px; font-size:16px;}
+
+.main_ri{ float:left; width:298px; overflow:hidden; border:1px solid #ddd; margin-left:20px;}
+.ri_title{ font-size:16px; margin-left:20px; line-height:41px; height:41px; border-bottom:1px solid #ddd;width:258px; margin-bottom:20px;}
+.tjzq{width:258px; overflow:hidden; margin-left:20px; }
+.tjzq_01{ width:258px; height:100px;}
+.tjzq_01 a img{width:180px; height:100px;float:left;}
+.tjzq_01 span{ font-size:16px; float:right; height:100px; line-height:100px;}
+.tjzq_01 span a{color:#1058ad;}
+.tjzq ul{ width:256px; border:1px #ddd solid; overflow:hidden; margin-bottom:8px;}
+.tjzq ul li{width:256px; overflow:hidden}
+.tjzq ul li img{ height:110px; width:256px;}
+.jg{ height:20px; line-height:20px; width:256px; text-align:center; margin-bottom:10px;}
+.jg em{ color:#666; text-decoration:line-through;font-size:12px; margin-right:8px;}
+.jg span{color:#e00346;font-size:12px;}

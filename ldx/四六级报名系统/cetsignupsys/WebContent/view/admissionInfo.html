@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>How transform HTML into PDF</title>
+        <link rel="stylesheet" href="../css/style.css">
+        
+    </head>
+    <body>
+        
+        <div class="tools">
+            <button id="btn-html2canvas">导出为PDF</button>
+        </div>
+
+        <div class="container">
+
+            <div id="content">
+            
+                
+                <div class="content-main" id="content-main">
+                	<table>
+                		<tr align="left"><td rowspan="1" width='30%'></td></tr>
+                	</table>
+                   
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <script src="../js/jspdf.debug.js"></script>
+        <script src="../js/html2canvas.js"></script>
+        <script src="../main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+        <script type="text/javascript">
+        
+
+        function getContextPath(){ 
+	        var pathName = document.location.pathname; 
+	        var index = pathName.substr(1).indexOf("/"); 
+	        var result = pathName.substr(0,index+1); 
+	        return result; 
+        } 
+        
+       $.ajax({
+    	   	type:"GET",
+    	   	url:getContextPath()+"/user/printAdmission.action",
+    	   	dataType:"json",
+    	   	success: function (data)
+            {
+    	   		//$("#content-banner-logo").attr("src",data.personImg);
+    	   		var table="<table><tr align='left'><td rowspan='4'><img class='content-banner-logo' src='"+data.personImg+"' alt='logo'></td><td colspan = '2'>准考证号："+data.id+"</td></tr>"
+    	   		+"<tr align='left'><td colspan = '2'>身份证号："+data.idcard+"</td></tr>"
+    	   		+"<tr align='left'><td width='26%'>姓名："+data.name+"</td><td>性别："+data.sex+"</td></tr><tr align='left'><td>考试类型："+data.cetType+"</td><td>考试时间：2018-6-15 9:00-11:30</td></tr></table>"
+    	   		//var html="<h3>准考证号："+data.id+"</h3><h3>姓名："+data.name+"</h3><h3>性别："+data.sex+"</h3><h3>身份证号："+data.idcard+"</h3><h3>考试类型："+data.cetType+"</h3>";
+    	   		 $("#content-main").append(table);
+    	   		
+    	   		
+            },
+            error:function (XMLHttpRequest, textStatus, errorThrown) {      
+                alert("请求失败！");
+            }
+       });
+        
+        
+        
+        </script>
+
+    </body>
+
+</html>

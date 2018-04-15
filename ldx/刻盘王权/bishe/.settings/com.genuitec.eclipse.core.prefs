@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebContent/a_data,WebContent/lib,WebContent/js
+validator.Unchecked=

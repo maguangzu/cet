@@ -1,0 +1,194 @@
+
+
+/*-------------轮换图开始------------*/
+#slider {
+	width: 100%;
+	min-width:1300px;
+	max-width: 1500px;
+	height: 500px;
+	min-height: 400px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#slider img{
+	height: 100%;
+}
+
+/*------------slider end--------------*/
+._search{
+	width: 520px;
+	height: 370px;
+	background-color: white;
+	position: absolute;
+	z-index: 999;
+	left: 10%;
+	top: 70px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	overflow: hidden;
+}
+._search_top{
+	height: 44px;
+}
+._search_top a{
+	width: 172px;
+	float: left;
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+._serchActive{
+	background-color: gainsboro;
+	border: 1px solid darkgray;
+	border-right: none;
+	width: 173px;
+	border-radius: 2px;
+}
+._search_left{
+	width: 225px;
+	height: 200px;
+	float: left;
+	margin: 5px 0 0 27px;
+}
+._search_left p{
+	font-size: 16px;
+}
+._search_left_bot{
+	width: 210px;
+	height: 35px;
+	margin-top:20px;
+}
+._search_left_bot select{
+	width: 102px;
+	height: 35px;
+	border: 1px solid #ccc;
+	margin-right: 1px;
+	padding: 6px 0;
+}
+._search_left_bot input{
+	width: 208px;
+	height: 35px;
+	border: 1px solid #ccc;
+	padding: 6px 0;
+	background: url(../img/banner_010.png) no-repeat 96% center;
+}
+._Btn{
+	width: 460px;
+	height: 50px;
+	display: block;
+	background-color: #f76030;
+	border-radius: 4px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	margin: 35px 0 0 27px;
+}
+/*------------PAGINATION------------*/
+
+/*style pagination*/
+.pagination li {
+	background-color: #ddd;
+}
+
+.pagination li.active {
+	background-color: #000;
+}
+
+/*position controls*/
+.controls li {
+	top: 50%;
+	margin-top: -20px;
+	z-index: -11;
+}
+
+.controls li:nth-child(1) {
+	left: 0;
+}
+
+.controls li:nth-child(2) {
+	right: 0;
+}
+/*-------------HELPERS----------------*/
+
+.responsive {
+	width: 100%;
+	height: 100%;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*----------------关于我们---------------------*/
+.aboutme{
+	min-width: 1200px;
+	max-width: 1500px;
+	width: 100%;
+	height: 680px;
+	margin: 3px 0;
+	margin: 0 auto;
+}
+.aboutme_left{
+	width: 49%;
+	height: 100%;
+	float: left;
+	background-color: white;
+	padding-left: 1%;
+}
+.aboutme_left h1{
+	font-size: 38px;
+	letter-spacing:8px;
+	line-height: 90px;
+	padding-left: 70px;
+	color: #989898;
+	display: block;
+}
+._space{
+	text-indent: 2em;
+	letter-spacing:5px;
+	font-size: 18px;
+	line-height: 22px;
+	color: #A9A9A9;
+}
+.aboutme_map{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.aboutme_map img{
+	width: 100%;
+	height: 100%;
+}
+
+/*----------------流程------------------------*/
+.flow{
+	width: 100%;
+	max-width: 1500px;
+	height: 680px;
+	margin: 0 auto;
+}
+.flow img{
+	width: 100%;
+	height: 100%;
+}
+/*-----------------服务-----------------------*/
+.serve{
+	min-width: 1200px;
+	width: 100%;
+	max-width: 1500px;
+	height: 500px;
+	margin: 0 auto;
+}
+.serve img{
+	width: 100%;
+	height: 100%;
+}
+

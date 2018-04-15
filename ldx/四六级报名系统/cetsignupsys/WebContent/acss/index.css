@@ -1,0 +1,153 @@
+html{
+	background-color:#ECF0F5;
+}
+._top{
+	width: 100%;
+	height: 50px;
+	background-color: #3C8DBC;
+	min-width: 700px;
+}
+._logo{
+	width: 230px;
+	background-color: #357CA5;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+._logo p{
+	color: white;
+	font-size: 26px;
+	font-weight: 700;
+}
+._user{
+	width: 293px;
+	line-height: 50px;
+	float: right;
+}
+._user_img{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin:10px 20px 0 20px;
+	float: right;
+}
+._user p{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	display: inline;
+	float: right;
+	
+}
+._user p a{
+	margin-right: 5px;
+	padding: 0 15px;
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+}
+._user p a:hover{
+	background-color: #357CA5;
+}
+/* ------------------ 顶部结束 ------------------- */
+._container{
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+}
+._left{
+	width: 230px;
+	height: 700px;
+	background-color: #222D32;
+	font-weight: 500;
+	float: left;
+}
+._menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+._menuItem{
+	color: #8AA4AF;
+	display: block;
+	height: 44px;
+	width: 230px;
+	font-size: 16px;
+	line-height: 44px;
+	font-weight: 500;
+}
+._menuItem:hover{
+	background-color: #1e282c;
+	color: white;
+}
+._menuItem:hover span{
+	border-color: white;
+}
+._menuItemMenu{
+	padding-left: 7px;
+	background-color: #2C3B41;
+	display: none;
+	/*height: 0;*/
+	overflow: hidden;
+}
+._menuItemMenu li{
+
+	display: block;
+	width: 223px;
+	height: 30px;
+	/*overflow: hidden;*/
+}
+._menuItemMenuItem{
+	color: #8AA4AF;  		
+	display: block;
+	width: 223px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 500;
+}
+._menuItemMenuItem:hover{
+	color: white;
+}
+._menuItemMenuItem:hover span{
+	border-color: white;
+}
+/* 一级菜单的选中效果 */
+.active{
+	background-color: #1e282c;
+	color: white;
+}
+.active>a{
+	color: white;
+}
+.active>a span{
+	border-color: white;
+}
+.active ul{
+	display: block;
+}
+/* 二级菜单的选中效果 */
+._active{
+	color: white;
+}
+._active>a{
+	color: white;
+}
+._active>a span{
+	border-color: white;
+}
+/* ----------------- 左边结束 -------------------- */
+._main{
+		background-color:#ECF0F5;  	
+		float: right;
+		overflow: hidden;
+		padding: 0;	
+		margin: 0;
+		height: 700px;
+}
+._main iframe{
+		height: 700px;  	
+		padding: 0;	
+		margin: 0;
+}
